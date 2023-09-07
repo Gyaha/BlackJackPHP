@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: darkgreen;
+}
+
+.container {
+    margin: 24px;
+}
+
+.winner {
+    text-align: center;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.winner p {
+    padding: 8px;
+    background-color: beige;
+    font-size: larger;
+}
+
+.hand {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu a {
+    padding: 8px;
+    background-color: beige;
+    border-radius: 8px;
+    border: 1px solid black;
+    text-decoration: none;
+}
